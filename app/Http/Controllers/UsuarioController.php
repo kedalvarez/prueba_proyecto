@@ -13,7 +13,7 @@ class UsuarioController extends BaseController
 	public function index()
 	{
 	  	$usuarios = Usuario::all();
-		return view ('Usuari.info',compact('usuarios'));
+		return view ('Usuario.info',compact('usuarios'));
 	}
 
 	public function nuevoUsuario()
